@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(235, 162, 52);
+
+  
+}
+
+/*Media Query 
+Changes the colour of background colour and text colour depending onthe width of the screen*/
+@media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(0, 255, 221);
+      color: rgb(143, 46, 143);
+    }
+  }
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+/*Flexible Media
+Prevents images from being bigger than the viewport and creating a horizontal scroll bar*/
+img {
+    max-width: 100%;
+    display: block;
+  }
+
+
+  

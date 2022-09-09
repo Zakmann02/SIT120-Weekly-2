@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="external_css/style-test.css">
+    <!--Example of external CSS. Create a seperate file in external_css folder and link to change the entire page-->
+
+    <!--The design of the website adjusts to match the display size of the screen/browser window-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Responsive Web Design Test</title>
+    <style>
+        tr:nth-child(even) {
+            background-color:
+                #e95858;
+        }
+    </style>
+</head>
+
+<!--Example of internal CSS. Style tags are done within the head tags to establish rules-->
+
+<body>
+
+    <h1>Header Test!</h1>
+    <p style="color:rgb(208, 0, 255);font-size:30px;">
+        <!--Example of inline CSS, done inside the tag itself with the style element-->
+        Purple is a beautiful colour, isn't it?
+    </p style>
+    <style>
+        .newspaper {
+            column-count: 3;
+        }
+    </style>
+    </p>
+    <button>click me to test :)</button>
+
+    <table border="1" align="center">
+
+        <tr>
+            <th>Author</th>
+            <th>Series</th>
+            <th>Novel</th>
+        </tr>
+        <tr>
+            <td>Stephen King</td>
+            <td>The Dark Tower</td>
+            <td>The Gunslinger</td>
+        </tr>
+        <tr>
+            <td>Dennis E. Taylor</td>
+            <td>The Bobiverse Series</td>
+            <td>For We are Many</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    </br>
+
+    <div class="newspaper">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in sollicitudin metus. Mauris euismod
+        suscipit neque id ultricies. Ut molestie gravida odio, in egestas lorem tempor sed. Curabitur maximus tortor ut
+        dolor viverra, at pretium nunc pretium. Mauris non sodales neque. Etiam nec mollis massa. Sed vitae tellus
+        accumsan, hendrerit risus id, pretium tellus. Aliquam auctor euismod cursus. Etiam at nisl at ex viverra mollis.
+        Etiam eu arcu id neque sollicitudin congue id eu erat. Etiam placerat felis metus, ut feugiat sapien eleifend
+        vitae. Cras lacus arcu, eleifend vitae dapibus ut, luctus eget risus. Aenean id augue pretium, ullamcorper enim
+        in, consequat urna. Proin risus dolor, vestibulum in accumsan sit amet, ultrices eu lectus. Suspendisse sit amet
+        nulla tempus, posuere eros eu, dictum orci. Suspendisse potenti.
+
+    </div>
+
+    <br>
+
+    </br>
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+
+    <p id="demo"></p>
+
+</body>
+
+
+
+<!--Made width and height absurdly big to test image size. CSS prevents the image from being large enough
+    to require a horizontal space bar-->
+<img src="https://images.hdqwalls.com/wallpapers/a-neon-city-4m.jpg" alt="image machine broke" width="2500"
+    height="2500">
+
+
+</html>
